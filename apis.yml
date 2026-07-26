@@ -1,21 +1,48 @@
 aid: ethossystems
-name: Ethossystems
-description: 'Ethossystems is a company surfaced as a portfolio company of norwest-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead
-  awaiting the enrichment pipeline.'
+name: Ethos Systems
+description: 'Ethos Systems is an AI-powered human readiness platform that unifies learning, performance,
+  and outcomes management in a single system built for enterprise and government deployment across both
+  commercial and classified networks. Founded in 2019 and headquartered in Redwood City, California, Ethos
+  delivers personalized training with algorithm-driven interventions, rapid AI content development, and
+  real-time readiness dashboards that connect learning to operational outcomes. It serves the U.S. military,
+  federal civilian agencies, life sciences, manufacturing, freight and logistics, hospitality, athletics,
+  utilities, insurance, and government contractors, and is backed by Norwest Venture Partners, the Westly
+  Group, and Pear VC. The company operates the Ethos and Learn to Win platforms; its developer and product
+  documentation is gated behind authentication and it exposes no public REST API, OpenAPI specification,
+  or developer portal at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/ethossystems/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://app.ethossystems.com/favicons/apple-touch-icon.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - norwest-venture-partners
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier: profiled
+x-tier-reason: portfolio-lead-no-public-api
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
-- Unknown
+- Training
+- Learning
+- Readiness
+- Performance
+- Enterprise
+- Artificial Intelligence
+- Defense
+- Government
+- Life Sciences
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +52,24 @@ maintainers:
 common:
 - type: Website
   url: https://ethossystems.com
+- type: Login
+  url: https://app.ethossystems.com/login
+- type: SignUp
+  url: https://share.hsforms.com/2-DVSGV9pTvionJWUEYhvPA31w23
+- type: Support
+  url: https://31w23.share.hsforms.com/2XY_SsmKAREOnntdbVDySCQ
+- type: TermsOfService
+  url: https://ethossystems.com/terms
+- type: PrivacyPolicy
+  url: https://ethossystems.com/privacy
+- type: LinkedIn
+  url: https://www.linkedin.com/company/ethossystems
+- type: Twitter
+  url: https://x.com/EthosSystems
+- type: DomainSecurity
+  url: security/ethossystems-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
