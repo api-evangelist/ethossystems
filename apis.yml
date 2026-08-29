@@ -11,6 +11,17 @@ description: 'Ethos Systems is an AI-powered human readiness platform that unifi
   documentation is gated behind authentication and it exposes no public REST API, OpenAPI specification,
   or developer portal at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/ethossystems/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
